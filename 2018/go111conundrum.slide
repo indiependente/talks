@@ -1,0 +1,18 @@
+Switch Conundrum
+30 Aug 2018
+
+Francesco Farina
+@indiependente
+
+Credits to Daniel Martí
+@mvdan_
+
+* What's interesting about this code?
+
+.play go111modules1a.go
+
+* Solution
+- This code compiled in go1.10
+.link https://play.golang.org/p/CvmefPgDMDd
+- The compiler now rejects unused variables declared in a type switch guard, such as x in the following example
+.link https://golang.org/doc/go1.11
