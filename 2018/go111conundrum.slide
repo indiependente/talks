@@ -9,7 +9,7 @@ Credits to Daniel Martí
 
 * What's interesting about this code?
 
-.play go111modules1a.go
+.play code/go111modules1a.go
 
 * Solution
 - This code compiled in go1.10

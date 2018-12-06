@@ -1,0 +1,99 @@
+An introduction to the Go programming language
+7 Dec 2018
+
+Francesco Farina
+@indiependente
+
+River Island
+
+* Why a new language?
+- Efficiency
+- Safety
+- Concurrency
+- Scalability
+- Fast development cycle
+- No surprises
+- Cute mascot
+
+* Fathers of Go
+
+.image images/rg_rp_kt.jpg
+.caption _"The_three_of_us_got_together_and_decided_that_we_hated_C++"_ - Ken Thompson
+
+* Fathers of Go
+
+- Robert Griesemer: Hotspot, JVM
+- Rob Pike: Unix, Plan 9, UTF-8
+- Ken Thompson: B, C, Unix, sh, UTF-8
+
+* Mascot
+.image images/gophers.jpg 400 600
+.caption Gophers
+
+* Purpose of Go
+
+- Faster software development process
+- Better dependency management
+- Easier concurrency primitives
+- Better memory management
+
+* Design
+_Consensus_driven_feature_selection_
+
+- Lightweight: avoid what's unnecessary
+- Object Oriented: not in the usual way
+- Concurrent: while keeping you sane
+- Pragmatic: designed for working programmers
+
+* Modern day programming language challenges
+
+- Compiled or Interpreted
+- Quick compilation time
+- Easy Memory Management
+- Enables code readability and reuse
+- Leverages concurrency
+
+* Compiled vs Interpreted Languages
+
+- Compiled
+ - Strongly typed
+ - Language verbosity
+ - Compilation time required, fast execution
+
+- Interpreted
+ - Loosely typed
+ - Language simplicity
+ - No compilation required, but slow interpretation
+
+* Go is Statically typed, but...
+ number := 5
+ name := "Francesco"
+ ok := true
+
+* Compilation time
+
+.image images/compiling.png
+.caption [[https://xkcd.com/303][xkcd]]
+
+* Compilation time
+
+_Go_provides_a_model_for_software_construction_that_makes_dependency_analysis_easy_and_avoids_much_of_the_overhead_of_C-style_include_files_and_libraries._
+
+- [[https://golang.org/doc/faq][Go FAQ]]
+
+* Memory Management
+
+- Go is Garbage Collected
+- Mark-and-sweep collector
+
+* Code readability and reuse
+
+- Idiomatic code
+- One way to write Go code
+- gofmt
+
+* Concurrency
+
+- Goroutines
+- CSP pattern
+- Modern concurrent primitives
